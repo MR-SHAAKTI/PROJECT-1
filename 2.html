@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+<p>I'd really like to hear from you!</p>
+    <form>    
+        <fieldset>
+        <legend>Personal Information</legend>
+       <p><label>Last Name: <input type="text" placeholder="enter your name" /></label></p> 
+       <p><label>Password: <input type="password" placeholder="your secret" /></label></p>
+       <p><label>phone: <input type="text" placeholder="555555555" /></label></p>
+       <p><label>Favorite Decade: <input type="1980" /></label></p>
+       <p>
+        <level>Favorite Coffee
+            <select id="favorite_Coffee" name="favorite_Coffee">
+                <option value=""selected="selected">Select one</option>
+                <option value="Regular_Coffee">Regulaar Coffee</option>
+                <option value="iced_coffee">Iced Coffee</option>
+                <option value="expresso_drinks">Expresso drinks</option>
+                <option value="latte">Latte</option>
+            </select>
+        </level>
+       </p>
+    </fieldset>
+    <fieldset>
+        <legend>What is your favorite food?</legend>
+        <p>
+            <level>
+                <input type="radio" name="favorite_food" required value="tacos" />Tacos
+            </level>
+        </p>
+        <p>
+            <level>
+                <input type="radio" name="favorite_food" required value="pizza" />pizza
+            </level>
+        </p>
+        <p>
+            <level>
+                <input type="radio" name="favorite_food" required value="others" />others
+            </level>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Do you have pets?</legend>
+        <p>
+            <level>
+                <input type="checkbox" name="pets" required value="dog" />dog
+            </level>
+        </p>
+        <p>
+            <level>
+                <input type="checkbox"  name="pets" required value="cat" />cat
+            </level>
+        </p>
+        <p>
+            <level>
+                <input type="checkbox" name="pets" required value="fish" />fish
+            </level>
+        </p>
+        <p>
+            <level>
+                <input type="checkbox" name="pets" required value="others" />others
+            </level>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Send Me a Note</legend>
+        <p>Your Massage</p>
+        <textarea name="welcome massage" rows="8" cols="30" style=color:gray>Type Your Massage Here</textarea>
+    </fieldset>
+    <button>Submit</button>
+    <button>Post</button>
+    <button>Reset</button>
+    </form>
+</body>
